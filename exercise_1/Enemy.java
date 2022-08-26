@@ -5,9 +5,11 @@ public class Enemy {
     int armor;
     boolean hasMagicImmunity;
     String name;
+    String quotes;
 
     // Enemy method
     public void enemyDialogue() {
-        System.out.println("Fear me player for my name is " + name + " and I deal " + damage + " damage!");
+        System.out.println("\nFear me player for my name is " + name + " and I deal " + damage + " damage!");
+        System.out.println ("Taunt: " + quotes);
     }
 }
