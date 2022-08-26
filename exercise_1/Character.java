@@ -10,6 +10,6 @@ public class Character {
     public void sayMyName() {
         System.out.println("\nThe names " + name);
         System.out.println("Quote: " + quotes);
-        System.out.println("\nStrength: " + strength + "\nAgility: " + agility + "\nIntelligence: " + intelligence);
+        //System.out.println("\nStrength: " + strength + "\nAgility: " + agility + "\nIntelligence: " + intelligence);
     }
 }
