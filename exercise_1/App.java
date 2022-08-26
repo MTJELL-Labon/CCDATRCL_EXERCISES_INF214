@@ -2,57 +2,57 @@ public class App {
     public static void main(String[] args) {
 
         // Character Class
-        Character knight = new Character();
+        Character Demons = new Character();
 
-        knight.strength = 10;
-        knight.agility = 5;
-        knight.intelligence = 0;
-        knight.name = "Chen";
-        knight.sayMyName();
+        Demons.strength = 10;
+        Demons.agility = 5;
+        Demons.intelligence = 0;
+        Demons.name = "Rodin";
+        Demons.sayMyName();
 
-        Character mage = new Character();
+        Character Witch = new Character();
 
-        mage.strength = 0;
-        mage.agility = 5;
-        mage.intelligence = 10;
-        mage.name = "Akasha";
-        mage.sayMyName();
+        Witch.strength = 0;
+        Witch.agility = 5;
+        Witch.intelligence = 10;
+        Witch.name = "Bayonetta";
+        Witch.sayMyName();
 
-        Character thief = new Character();
+        Character Rogue = new Character();
 
-        thief.strength = 5;
-        thief.agility = 10;
-        thief.intelligence = 0;
-        thief.name = "Gondar";
-        thief.sayMyName();
+        Rogue.strength = 5;
+        Rogue.agility = 10;
+        Rogue.intelligence = 0;
+        Rogue.name = "Luka";
+        Rogue.sayMyName();
 
         // Enemy Class
-        Enemy boss = new Enemy();
+        Enemy Sage = new Enemy();
 
-        boss.damage = 50;
-        boss.health = 500;
-        boss.armor = 100;
-        boss.hasMagicImmunity = true;
-        boss.name = "Roshan";
-        boss.enemyDialogue();
+        Sage.damage = 50;
+        Sage.health = 500;
+        Sage.armor = 100;
+        Sage.hasMagicImmunity = true;
+        Sage.name = "Balder";
+        Sage.enemyDialogue();
 
-        Enemy skeleton = new Enemy();
+        Enemy Angels = new Enemy();
 
-        skeleton.damage = 5;
-        skeleton.health = 10;
-        skeleton.armor = 5;
-        skeleton.hasMagicImmunity = false;
-        skeleton.name = "Common Skeleton Warrior";
-        skeleton.enemyDialogue();
+        Angels.damage = 5;
+        Angels.health = 10;
+        Angels.armor = 5;
+        Angels.hasMagicImmunity = false;
+        Angels.name = "Affinity";
+        Angels.enemyDialogue();
 
-        Enemy dragon = new Enemy();
+        Enemy Cardinal = new Enemy();
 
-        dragon.damage = 40;
-        dragon.health = 400;
-        dragon.armor = 75;
-        dragon.hasMagicImmunity = false;
-        dragon.name = "Ancient Wyvern";
-        dragon.enemyDialogue();
+        Cardinal.damage = 40;
+        Cardinal.health = 400;
+        Cardinal.armor = 75;
+        Cardinal.hasMagicImmunity = false;
+        Cardinal.name = "Fortitudo";
+        Cardinal.enemyDialogue();
 
         Weapon Kulshedra = new Weapon();
         Kulshedra.WeaponType = "Whip";
