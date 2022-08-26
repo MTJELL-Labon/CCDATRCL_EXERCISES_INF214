@@ -2,39 +2,43 @@ public class App {
     public static void main(String[] args) {
 
         // Character Class
-        Character Demons = new Character();
-
-        Demons.strength = 10;
-        Demons.agility = 5;
-        Demons.intelligence = 0;
-        Demons.name = "Rodin";
-        Demons.sayMyName();
-
         Character Witch = new Character();
 
         Witch.strength = 0;
         Witch.agility = 5;
         Witch.intelligence = 10;
         Witch.name = "Bayonetta";
+        Witch.quotes = "Don't fuck with a witch!";
         Witch.sayMyName();
+        
+        Character Demon = new Character();
 
-        Character Rogue = new Character();
+        Demon.strength = 5;
+        Demon.agility = 10;
+        Demon.intelligence = 0;
+        Demon.name = "Rodin";
+        Demon.quotes = "No matter how much you ask, I'm not puttin' a chainsaw on your arm. Now, what do you want?";
+        Demon.sayMyName();
+       
+        Character Human = new Character();
 
-        Rogue.strength = 5;
-        Rogue.agility = 10;
-        Rogue.intelligence = 0;
-        Rogue.name = "Luka";
-        Rogue.sayMyName();
+        Human.strength = 10;
+        Human.agility = 5;
+        Human.intelligence = 0;
+        Human.name = "Luka";
+        Human.quotes = "Do you believe in fate?";
+        Human.sayMyName();
 
         // Enemy Class
-        Enemy Sage = new Enemy();
+        Enemy LumenSage = new Enemy();
 
-        Sage.damage = 50;
-        Sage.health = 500;
-        Sage.armor = 100;
-        Sage.hasMagicImmunity = true;
-        Sage.name = "Balder";
-        Sage.enemyDialogue();
+        LumenSage.damage = 50;
+        LumenSage.health = 500;
+        LumenSage.armor = 100;
+        LumenSage.hasMagicImmunity = true;
+        LumenSage.name = "Balder";
+        LumenSage.quotes = "The time has come to awaken the Eyes of the World.";
+        LumenSage.enemyDialogue();
 
         Enemy Angels = new Enemy();
 
@@ -43,6 +47,7 @@ public class App {
         Angels.armor = 5;
         Angels.hasMagicImmunity = false;
         Angels.name = "Affinity";
+        Angels.quotes = "Ethar(Peace)";
         Angels.enemyDialogue();
 
         Enemy Cardinal = new Enemy();
@@ -51,7 +56,8 @@ public class App {
         Cardinal.health = 400;
         Cardinal.armor = 75;
         Cardinal.hasMagicImmunity = false;
-        Cardinal.name = "Fortitudo";
+        Cardinal.name = "Temperantia";
+        Cardinal.quotes = "We have but one goal: resurrecting the Creator and reunifying the Trinity of Realities. That shall be the purpose of your sacrifice!";
         Cardinal.enemyDialogue();
 
         Weapon Kulshedra = new Weapon();
