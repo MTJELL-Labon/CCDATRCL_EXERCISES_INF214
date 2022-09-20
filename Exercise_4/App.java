@@ -1,8 +1,6 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-import javafx.print.PrintColor;
-
 public class App {
     public static void main(String[] args) throws Exception {
            //GEN NOTES:
